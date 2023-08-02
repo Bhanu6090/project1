@@ -5589,3 +5589,42 @@ INFO:root:log my final result [{'Product': 'narzo10', 'Name': 'Harsh Jha', 'Rati
 INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 12:12:22] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 12:12:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 12:12:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.31:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:55:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:55:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:55:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:56:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:56:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:56:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:56:29] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:56:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Realme7i', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Decent product', 'Comment': 'Good product'}, {'Product': 'Realme7i', 'Name': 'Nazeem Mohd', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Super 💘'}, {'Product': 'Realme7i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Good phone 🤩❤'}, {'Product': 'Realme7i', 'Name': 'Anas Zia', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Best camera'}, {'Product': 'Realme7i', 'Name': 'Karthi Keyan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Nice mobile phone value for money'}, {'Product': 'Realme7i', 'Name': 'Akash Aryabhatt', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Nice camera'}, {'Product': 'Realme7i', 'Name': 'Ravi Kumar', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Fantastic mobile'}, {'Product': 'Realme7i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Nice'}, {'Product': 'Realme7i', 'Name': 'Susmita Das', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'No problems..all perfect ...'}, {'Product': 'Realme7i', 'Name': 'Pradeep Mandal', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Nice pic'}, {'Product': 'Realme7i', 'Name': 'Pradeep Mandal', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice pic'}]
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:57:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:57:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:57:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme7i', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Decent product', 'Comment': 'Good product'}, {'Product': 'realme7i', 'Name': 'Nazeem Mohd', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Super 💘'}, {'Product': 'realme7i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Good phone 🤩❤'}, {'Product': 'realme7i', 'Name': 'Anas Zia', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Best camera'}, {'Product': 'realme7i', 'Name': 'Karthi Keyan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Nice mobile phone value for money'}, {'Product': 'realme7i', 'Name': 'Akash Aryabhatt', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Nice camera'}, {'Product': 'realme7i', 'Name': 'Ravi Kumar', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Fantastic mobile'}, {'Product': 'realme7i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Nice'}, {'Product': 'realme7i', 'Name': 'Susmita Das', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'No problems..all perfect ...'}, {'Product': 'realme7i', 'Name': 'Pradeep Mandal', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Nice pic'}, {'Product': 'realme7i', 'Name': 'Pradeep Mandal', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice pic'}]
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:59:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:59:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 14:59:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 15:03:54] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 15:03:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.31:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 15:19:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 15:19:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [02/Aug/2023 15:19:52] "GET /static/css/style.css HTTP/1.1" 200 -
